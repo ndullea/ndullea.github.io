@@ -7,12 +7,16 @@ body {
 h1 {
     color: black;
     margin-left: 20px;
+    color: black;
+	border-style: solid;
+	border-width: medium;
 }
 
 h2 {
 	color: white;
     margin-left: 20px;
 }
+
 
 
 
