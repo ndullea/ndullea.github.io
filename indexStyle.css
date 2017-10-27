@@ -1,13 +1,13 @@
 
 body {
-    background-color: green;
+    background-color: DarkSlateGrey;
 }
 
 
 h1 {
-    color: black;
+    color: white;
     margin-left: 5px;
-    color: black;
+    color: white;
 	border-style: solid;
 }
 
