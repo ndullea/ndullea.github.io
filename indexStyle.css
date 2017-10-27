@@ -3,24 +3,9 @@ body {
     background-color: green;
 }
 
-header {
-	color: CadetBlue;
-	border: 1px solid black;
-    /*margin: 25px 50px 75px 100px;*/
-    width: 80%;
-
-}
-
-footer {
-	color: CadetBlue;
-	border: 1px solid black;
-    /*margin: 25px 50px 75px 100px;*/
-    width: 80%;
-}
-
 
 h1 {
-    color: navy;
+    color: white;
     margin-left: 20px;
 }
 
