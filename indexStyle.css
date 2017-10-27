@@ -4,11 +4,15 @@ body {
 
 header {
 	color: CadetBlue;
+	border: 1px solid black;
+    margin: 25px 50px 75px 100px;
 
 }
 
 footer {
 	color: CadetBlue;
+	border: 1px solid black;
+    margin: 25px 50px 75px 100px;
 }
 
 h1 {
