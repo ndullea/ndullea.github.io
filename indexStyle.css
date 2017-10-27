@@ -1,12 +1,12 @@
-/*
+
 body {
-    background-color: lightblue;
+    background-color: green;
 }
 
 header {
 	color: CadetBlue;
 	border: 1px solid black;
-    /*margin: 25px 50px 75px 100px;/
+    /*margin: 25px 50px 75px 100px;*/
     width: 80%;
 
 }
@@ -14,7 +14,7 @@ header {
 footer {
 	color: CadetBlue;
 	border: 1px solid black;
-    /*margin: 25px 50px 75px 100px;/
+    /*margin: 25px 50px 75px 100px;*/
     width: 80%;
 }
 
@@ -23,66 +23,6 @@ h1 {
     color: navy;
     margin-left: 20px;
 }
-*/
 
-@import '//fonts.googleapis.com/css?family=Open+Sans|Raleway';
 
-body {
-  font-family: "Open Sans", "segoe ui", helvetica, arial, sans-serif;
-  font-size: 24px;
-  font-size: calc(1em + 1vw);
-  /* ^ this is the bollocks! Thanks @vasilis */
-  margin: 0;
-  padding: 0;
-  min-width: 330px;
-  background-color: Tomato;
-}
-#masthead label {
-  padding-right: 1em;
-}
-#masthead form {
-  display: flex;
-  align-items: flex-start;
-  flex: 0 1 auto;
-  color: #ccc;
-}
-#masthead {
-  font-size: 60%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background: #111;
-  padding: 1vh 1vw;
-}
-#masthead a {
-  color: #fff;
-  text-decoration: none;
-  display: flex;
-  align-items: flex-start;
-  flex: 0 1 auto;
-}
-#masthead small {
-  color: orange;
-}
-#masthead button {
-  padding: 0 0 0 0;
-  margin: 0 0 0 1em;
-  border: none;
-  background: transparent;
-  color: #fff;
-}
-header {
-  clear: both;
-  display: block;
-  background: #eee;
-  padding: 0 1vh 0 1vh;
-  min-height: 150px;
-  overflow: auto;
-  font-size: 70%;
-  transition: 400ms;
-}
-header:hover {
-  transition: 400ms;
-  box-shadow: -2px 2px 5px #ccc;
- transform: translate(0,-1px);
-}
+
