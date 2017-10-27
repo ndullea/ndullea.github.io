@@ -2,19 +2,16 @@ body {
     background-color: lightblue;
 }
 
-header.fixed {
+header {
 	position: fixed;
 	color: CadetBlue;
 	border: 1px solid black;
     /*margin: 25px 50px 75px 100px;*/
-    /*width: 80%;*/
-    bottom: 0;
-    right: 0;
-    width: 300px;
+    width: 80%;
 
 }
 
-footer.fixed {
+footer {
 	position: fixed;
 	color: CadetBlue;
 	border: 1px solid black;
