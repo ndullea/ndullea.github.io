@@ -2,14 +2,13 @@
 
 
 body {
-    background: linear-gradient(to right, #34e89e, #0f3443);
+    background: linear-gradient(to right, #19DAF6, #D9E6B7);
     /* hsla */
 }
 
 div {
 	color: grey;
     margin: 20px;
-    opacity: 0.5;
     color: grey;
 	border-style: solid;
 	background-color: #333;
@@ -17,12 +16,11 @@ div {
 
 
 h1 {
-    color: grey;
+    color: white;
     margin-left: 20px;
-    opacity: 1.0;
     margin-right: 20px;
-    color: grey;
 	border-style: solid;
+	text-align: center;
 	background-color: #333;
 }
 
@@ -31,12 +29,20 @@ h2 {
     margin-left: 20px;
 }
 
+p {
+	margin: 20px;
+	text-align: center;
+	border-style: solid;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    border-style: solid;
+    border-color: grey;
 
 }
 
