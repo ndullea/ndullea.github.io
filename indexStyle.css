@@ -6,6 +6,14 @@ body {
     /* hsla */
 }
 
+div {
+	color: grey;
+    margin: 20px;
+    color: grey;
+	border-style: solid;
+	background-color: #333;
+}
+
 
 h1 {
     color: grey;
