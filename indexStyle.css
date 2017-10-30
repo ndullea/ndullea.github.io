@@ -11,8 +11,13 @@ div {
 	align-items: center;
 }
 
+#homeMenu {
+	margin: 100px;
+    text-align:center;
+}
+
 #menu {
-	background-color:#98bf21;
+	margin: 25px;
     text-align:center;
 }
 
@@ -44,7 +49,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: linear-gradient(to right, #13CBE6, #0A656E);
 }
 
 li {
@@ -59,7 +63,10 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color:#004275;
+    border-radius: 25px;
+    opacity: 0.5;
+    opacity: 50%;
 }
 
 
