@@ -11,8 +11,13 @@ div {
 	align-items: center;
 }
 
-#menu {
+#mainMenu {
 	margin: 100px;
+    text-align:center;
+}
+
+#menu {
+	margin: 25px;
     text-align:center;
 }
 
