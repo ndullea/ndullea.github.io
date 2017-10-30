@@ -62,11 +62,23 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+/*li a:hover {
     background-color:#004275;
     border-radius: 25px;
     opacity: 0.5;
     opacity: 50%;
+}*/
+li a.active {
+    background-color:#004275;
+    border-radius: 25px;
+    opacity: 0.5;
+    opacity: 50%;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    border-radius: 25px;
+    color: white;
 }
 
 
