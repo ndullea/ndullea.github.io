@@ -9,6 +9,8 @@ $(document).ready(function() {
         linkLocation = this.href;
         $("body").fadeOut(1000, redirectPage);      
     });
+
+    $("html").css("background-color",  "linear-gradient(to right, #13CBE6, #0A656E)");
         
     function redirectPage() {
         window.location = linkLocation;
