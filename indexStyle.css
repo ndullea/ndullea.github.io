@@ -1,12 +1,10 @@
 /* Nathan Dullea */
 html {
-    /*If you had a black or close to black background*/
-    background-color: linear-gradient(to right, #13CBE6, #0A656E);
+    background-color: #13CBE6;
 }
 
 body {
-    background: linear-gradient(to right, #13CBE6, #0A656E);
-    /* hsla */
+    background: #13CBE6;
 }
 
 div {
