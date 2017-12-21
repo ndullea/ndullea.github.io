@@ -9,22 +9,51 @@
 	<link rel="stylesheet" type="text/css" href="indexStyle.css">
 
 	<!-- including jquery and js that does fadein -->
-	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-  	<script type="text/javascript" src="js/transition.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  	<script type="text/javascript" src="js/transition.js"></script> -->
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	
+	<script>
+		var i = true;
+
+		$(document).ready(function(){
+	    	$(".btn1").click(function(){
+	    		SlideImageUp().done(ChangePage);
+	    	});
+		});
+
+		function SlideImageUp () {
+			var r = $.Deferred();
+			$("img").slideUp();
+			setTimeout(function () {
+    			// and call `resolve` on the deferred object, once you're done
+    			r.resolve();
+  			}, 500);
+			return r;
+
+		}
+
+		function ChangePage () {
+			window.location.assign("about.html");
+		}
+	</script>
 
 </head>
 
 <body>
-	<div>
-		<img src="logoBanner.png" alt="ndullea logo" style="width:100%">
-	</div>
+
+	<img id="logoBanner" src="logoBanner.png" alt="ndullea logo" style="width:100%">
+
 
 	<div id="mainMenu">
 		<ul>
-			<li><a href="about.html"> About </a></li>
-			<li><a href="experience.html"> Experience </a></li>
+			<li><a class="btn1" href="about.html"> About </a></li>
 		</ul>
+
+		<button class="btn1"> About </button>
 	</div>
+
+
 </body>
 </html>
