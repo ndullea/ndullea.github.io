@@ -17,6 +17,10 @@
 	<script>
 		var i = true;
 
+		$(document).ready(function() {
+			$('.hidden').slideDown(750);
+		}); 
+
 		$(document).ready(function(){
 	    	$(".btn1").click(function(){
 	    		SlideImageUp().done(ChangePage);
@@ -25,11 +29,11 @@
 
 		function SlideImageUp () {
 			var r = $.Deferred();
-			$("img").slideUp();
+			$("img").slideUp(750);
 			setTimeout(function () {
     			// and call `resolve` on the deferred object, once you're done
     			r.resolve();
-  			}, 500);
+  			}, 750);
 			return r;
 
 		}
@@ -43,15 +47,13 @@
 
 <body>
 
-	<img id="logoBanner" src="logoBanner.png" alt="ndullea logo" style="width:100%">
+	<img id="logoBanner" class="hidden" src="logoBanner.png" alt="ndullea logo" style="width:100%">
 
 
 	<div id="mainMenu">
 		<ul>
-			<li><a class="btn1" href="about.html"> About </a></li>
+			<li><a class="btn1"> About </a></li>
 		</ul>
-
-		<button class="btn1"> About </button>
 	</div>
 
 
