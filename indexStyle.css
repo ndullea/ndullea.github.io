@@ -1,20 +1,14 @@
 /* Nathan Dullea */
 html {
     background-color: #13CBE6;
+    border: 0;
+    padding: 0;
 }
 
 body {
-    background: #13CBE6;
-}
-
-div {
-    margin: 20px;
-	align-items: center;
-}
-
-#mainMenu {
-	margin: 100px;
-    text-align:center;
+    background-color: #13CBE6;
+    border: 0;
+    padding: 0;
 }
 
 #menu {
@@ -22,18 +16,21 @@ div {
     text-align:center;
 }
 
+div {
+  
+}
 
 h1 {
     margin-left: 20px;
     margin-right: 20px;
 	text-align: center;
+    font-family: Helvetica;
 }
 
 text {
 	color: #000000;
+    font-family: Helvetica;
 }
-
-
 
 img {
     display: block;
@@ -61,14 +58,12 @@ li a {
     color: #000000;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Helvetica;
 }
 
-/*li a:hover {
-    background-color:#004275;
-    border-radius: 25px;
-    opacity: 0.5;
-    opacity: 50%;
-}*/
 li a.active {
     background-color: #00ADE0;
     border-radius: 25px;
@@ -82,18 +77,31 @@ li a:hover:not(.active) {
     opacity: 0.5;
 }
 
-.hidden{
+.hidden { 
     display: none;
 }
 
+.space {
+      margin: 20px;
+}
+
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: grey;
+    position: relative;
+    height: 20px;
+    width: 150%;
     color: white;
-    align-content: center;
+    text-align: left;
+    background-color: grey;
+    padding: 10px;
+}
+
+.mainContent {
+    border-style: solid;
+}
+
+.footerLink {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 
