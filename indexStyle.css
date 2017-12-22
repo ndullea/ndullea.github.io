@@ -88,9 +88,9 @@ li a:hover:not(.active) {
 .footer {
     position: relative;
     height: 20px;
-    width: 100%;
+    width: 98%;
     color: white;
-    text-align: left;
+    text-align: center;
     background-color: grey;
     padding: 10px;
     overflow-x: hidden;
