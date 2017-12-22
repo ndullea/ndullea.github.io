@@ -88,11 +88,13 @@ li a:hover:not(.active) {
 .footer {
     position: relative;
     height: 20px;
-    width: 150%;
+    width: 100%;
     color: white;
     text-align: left;
     background-color: grey;
     padding: 10px;
+    overflow-x: hidden;
+    overflow: 
 }
 
 .mainContent {
